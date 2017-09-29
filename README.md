@@ -15,7 +15,7 @@
   instead of all
 
   ```
-  npm install --save-dev rain-rev-all
+  npm install --save-dev gulp-rev-all
   ```
 
 ## Purpose
