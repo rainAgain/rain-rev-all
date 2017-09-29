@@ -5,6 +5,18 @@
 ## Attention!!!
 
   The version just fix the issuse [#152](https://github.com/smysnk/gulp-rev-all/issues/152),then can use in window, handle files from different disk.
+  
+  use
+
+  ```
+  npm install --save-dev rain-rev-all
+  ```
+
+  instead of all
+
+  ```
+  npm install --save-dev rain-rev-all
+  ```
 
 ## Purpose
 
