@@ -33,6 +33,10 @@ module.exports = {
 
       var files = revisioner.files;
       for (var filename in files) {
+        
+        var newfilepath = path.join(files[filename].base, files[filename].revPath);
+        files[filename].path = newfilepath;
+
         this.push(files[filename]);
       }
       callback();

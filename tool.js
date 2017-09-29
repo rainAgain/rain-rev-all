@@ -10,7 +10,7 @@ module.exports = (function() {
   };
   
   var dirname_with_sep = function(path) {
-    return Path.dirname(path).replace(/\\/g, '/') + '/';
+    return Path.dirname(path) + '/';
   }
 
   var join_path_url = function (prefix, path) {
