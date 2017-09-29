@@ -2,6 +2,9 @@
 
 > Static asset revisioning with dependency considerations, appends content hash to each filename (eg. unicorn.css => unicorn.098f6bcd.css), re-writes references.
 
+## Attention!!!
+
+  The version just fix the issuse [#152](https://github.com/smysnk/gulp-rev-all/issues/152),then can use in window, handle files from different disk.
 
 ## Purpose
 
