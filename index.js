@@ -2,6 +2,7 @@ var Through = require('through2');
 var Revisioner = require('./revisioner');
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
+var path = require('path');
 
 var PLUGIN_NAME = 'gulp-rev-all';
 
@@ -33,7 +34,7 @@ module.exports = {
 
       var files = revisioner.files;
       for (var filename in files) {
-        
+
         var newfilepath = path.join(files[filename].base, files[filename].revPath);
         files[filename].path = newfilepath;
 
